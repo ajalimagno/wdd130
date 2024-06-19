@@ -1,31 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Open+Sans&display=swap');
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-    --primary-color:;
-    --secondary-color:;
-    --accent1-color:;
-    --accent2-color:;
+    --primary-color: #0066cc;
+    --secondary-color: #003366;
+    --accent1-color: #ffcc00;
+    --accent2-color: #009933;
 
-    --heading-font:;
-    --paragraph-font:;
+    --heading-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
 
-
-    --nav-background-color:;
-    --nav-link-color:;
-    --nav-hover-link-color:;
-    --nav-hover-background-color:;
-}
-
-body {
-    f: var(--paragraph-font);
-    m: ;
-    p: ;
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background-color: var(--secondary-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,14 +41,13 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-
 }
 
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;   
+    padding: 1rem;
 }
 
 nav a:link, nav a:visited {

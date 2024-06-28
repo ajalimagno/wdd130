@@ -64,7 +64,7 @@ article {
     width: 40%;
 }
 
-article img {
+.articleimg {
     float: right;
     margin-left: 500px;;
 }

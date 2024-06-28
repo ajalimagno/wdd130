@@ -42,24 +42,25 @@ p {
 h1 {
   position: absolute;
   top: 5px;
-  left: 550px;
+  left: 350px;
+  font-size: 2em; 
+  color: #fff; 
+  background-color: var(--primary-color); 
+  padding: 10px; 
+  border-radius: 5px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 article {
   position: absolute;
-  top: 90px;
-  left: 550px;
+  top: 110px;
+  left: 50px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  width: 35%;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 article img {
   float: right;
+  width: 50px;
+  height: 50px;
 }

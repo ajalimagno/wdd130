@@ -26,6 +26,132 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
 }
 
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--nav-background-color);
+}
+
+header img {
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  padding: 10px;
+}
+
+header nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.history-content p {
+  margin: 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .history-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--nav-background-color);
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.sociallinks img {
+  width: 30px;
+  height: 30px;
+}
+
+.sociallinks a {
+  text-decoration: none;
+}
+
+#adventures {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+#adventures h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.adventure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.adventure-grid figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.adventure-grid figure img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.adventure-grid figure figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
 p {
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
@@ -72,3 +198,4 @@ article {
   float: right;
   height: 120px;
 }
+

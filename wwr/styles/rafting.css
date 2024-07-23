@@ -39,6 +39,11 @@ header img {
   margin-right: 20px;
 }
 
+.full-width-image {
+  
+  height: auto;
+} 
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -164,6 +169,12 @@ p {
 .hero {
     position: relative; 
     height: 450px;
+}
+
+.welcomebanner {
+  position: absolute;
+  top: 10px;
+  left: 400px;
 }
 
 h1 {
@@ -365,7 +376,16 @@ tr:hover {
   color: #333;
 }
 
-.hero img {
+.hero-trips {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  overflow: hidden;
+}
+
+.hero-trips img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -408,3 +428,103 @@ a[href="images/trippagewireframe.png"] {
 a[href="images/trippagewireframe.png"]:hover {
   color: rgb(0, 0, 0);
 }
+
+a[href="images/homewireframe.png"] {
+  color: #f9f9f9;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a[href="images/homewireframe.png"]:hover {
+  color: rgb(0, 0, 0);
+}
+
+.newsletter {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.5em;
+}
+
+.newsletter form {
+  margin-top: 10px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 5px;
+}
+
+.newsletter input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter input[type="submit"]:hover {
+  background-color: #000;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.call-to-action h2 {
+  font-size: 1.5em;
+}
+
+.call-to-action p {
+  margin-top: 10px;
+}
+
+.call-to-action a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action a:hover {
+  background-color: #000;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.image-container p {
+  margin-top: 10px;
+}
+
+.full-width-image {
+  height: auto;
+}
+

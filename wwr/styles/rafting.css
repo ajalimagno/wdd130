@@ -312,3 +312,99 @@ a[href="https://wireframe.cc/KvcQrt"] {
 a[href="https://wireframe.cc/KvcQrt"]:hover {
   color: #000000;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.trip-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.trip-description img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.trip-description figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trip-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trip-content h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.trip-content p {
+  margin: 10px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--secondary-color);
+}
+
+a[href="images/trippagewireframe.png"] {
+  color: #f9f9f9;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a[href="images/trippagewireframe.png"]:hover {
+  color: rgb(0, 0, 0);
+}
